@@ -5,7 +5,7 @@ import { Card } from "../components/Card"
 export const Home = () => {
   const cards = new Array(15).fill('').map((_, i) => i)
   // console.log(cards);
-  
+
   return (
   <>
     <Search/>
@@ -15,9 +15,6 @@ export const Home = () => {
         <Card/>
       </div>
       )}
-      
-
     </div>
-    
   </>
 )}
